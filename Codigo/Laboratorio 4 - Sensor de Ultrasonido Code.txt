@@ -1,5 +1,6 @@
 // Laboratorio 4 - Sensor de Ultrasonido
 // Link Tinkercad: https://www.tinkercad.com/things/3tZfEcskRwA-laboratorio-4
+// Foto: https://github.com/qxsantx/Computacion-Ubicua/blob/659183787f7a80010faed115617be59922f37ae8/Fotos%20Laboratorio/Laboratorio%204%20-%20foto.jpg
 
 int TRIG = 10;			// trigger en pin 10
 int ECO = 9;			// echo en pin 9
@@ -37,4 +38,5 @@ void loop()
 
 
    
+
 }
