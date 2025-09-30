@@ -1,5 +1,6 @@
 // Laboratorio 2 - Potenciometro
 // Link Tinkercad: https://www.tinkercad.com/things/ks3ExqRACur-laboratorio-2
+// Foto: https://github.com/qxsantx/Computacion-Ubicua/blob/bdb6e47415e321f80548f0d25ba3845cffba1279/Fotos%20Laboratorio/Laboratorio%202%20-%20foto.jpg
 
 
 int LED = 3;
@@ -14,3 +15,4 @@ void loop(){
   BRILLO = analogRead(POT) / 4;
   analogWrite(LED, BRILLO);
 }
+
