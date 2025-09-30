@@ -1,5 +1,6 @@
 // Laboratorio 1 - LED Pulsador
 // Link Tinkercad: https://www.tinkercad.com/things/faLUjjyt0YO-laboratorio-1
+// Foto: https://github.com/qxsantx/Computacion-Ubicua/blob/db275b0cfa13db6a475a288675f15d6dd3145761/Fotos%20Laboratorio/Laboratorio%201%20-%20foto.jpg
 
 void setup (){
   pinMode(2, INPUT);
@@ -13,4 +14,5 @@ void loop(){
   else {
     digitalWrite(3, LOW);
   }
+
 }
