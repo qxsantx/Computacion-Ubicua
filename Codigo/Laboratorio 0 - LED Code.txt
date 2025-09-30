@@ -1,5 +1,6 @@
 // Laboratorio 0 - LED
 // Link Tinkercad: https://www.tinkercad.com/things/1lFWS5uc1Na-laboratorio-0
+// Foto: https://github.com/qxsantx/Computacion-Ubicua/blob/b779cc921bc951ed1de0214972abfc5930871cac/Fotos%20Laboratorio/Laboratorio%200%20-%20foto.jpg
 
 void setup(){
   pinMode(13,OUTPUT);
@@ -10,4 +11,5 @@ void loop(){
   delay(3000);
   digitalWrite(13,LOW);
   delay(1000);
+
 }
