@@ -1,5 +1,6 @@
 // Laboratorio 3 - Sensor de Temperatura
 // Link Tinkercad: https://www.tinkercad.com/things/8uFpbef4D0f-laboratorio-3
+// Foto: https://github.com/qxsantx/Computacion-Ubicua/blob/85dd194bdf927b7b535097063171d6f8666acdca/Fotos%20Laboratorio/Laboratorio%203%20-%20foto.jpg
 
 int SENSOR;		// variable almacena valor leido de entrada analogica A0
 float TEMPERATURA;	// valor de temperatura en grados centigrados
@@ -16,4 +17,5 @@ void loop(){
   Serial.println(TEMPERATURA, 1);			// imprime en monitor serial valor
 							// de temperatura con un decimal
   delay(1000);						// demora de 1 seg. entre lecturas
+
 }
